@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AF0E0C8F96E65FE4D74D8E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 733A64007D4D3711BF2BF54F /* libPods.a */; };
+		BE2A50721D50B5FD00DA5041 /* CompetitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2A506B1D50B5FD00DA5041 /* CompetitionsViewController.m */; };
+		BE2A50731D50B5FD00DA5041 /* HomeCompetitionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2A506D1D50B5FD00DA5041 /* HomeCompetitionCell.m */; };
+		BE2A50741D50B5FD00DA5041 /* JZSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2A50711D50B5FD00DA5041 /* JZSpinner.m */; };
+		BE2A50781D50B62A00DA5041 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2A50771D50B62A00DA5041 /* ProfileViewController.m */; };
+		BEA83D881B53CEEF00D5FC3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA83D871B53CEEF00D5FC3B /* main.m */; };
+		BEA83D8B1B53CEEF00D5FC3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA83D8A1B53CEEF00D5FC3B /* AppDelegate.m */; };
+		BEA83D8E1B53CEEF00D5FC3B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA83D8D1B53CEEF00D5FC3B /* RootViewController.m */; };
+		BEA83D941B53CEEF00D5FC3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA83D921B53CEEF00D5FC3B /* Main.storyboard */; };
+		BEA83D961B53CEEF00D5FC3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA83D951B53CEEF00D5FC3B /* Images.xcassets */; };
+		BEA83D991B53CEEF00D5FC3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEA83D971B53CEEF00D5FC3B /* LaunchScreen.xib */; };
+		BEA83DA51B53CEEF00D5FC3B /* joizSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA83DA41B53CEEF00D5FC3B /* joizSDKDemoTests.m */; };
+		BEA83DB31B53E97C00D5FC3B /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA83DB21B53E97C00D5FC3B /* AuthViewController.m */; };
+		BEE3CA6B1D672AD90004E0A1 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = BEE3CA6A1D672AD90004E0A1 /* user.png */; };
+		BEF83A821D6B1931003B299C /* joizSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF83A811D6B1931003B299C /* joizSDK.framework */; };
+		BEF83A841D6B1948003B299C /* joizSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BEF83A831D6B1948003B299C /* joizSDKResources.bundle */; };
+		BEF83A891D6B43D8003B299C /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF83A881D6B43D8003B299C /* UIButton+Layout.m */; };
+		BEFB75961D4FAB8A005310C4 /* no_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BEFB75951D4FAB8A005310C4 /* no_image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA83D9F1B53CEEF00D5FC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA83D7A1B53CEEF00D5FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA83D811B53CEEF00D5FC3B;
+			remoteInfo = joizSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		733A64007D4D3711BF2BF54F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8261FE73BD4E42AB3CB7EF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A14B8F891715E93AC3EA7ED4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BE2A506A1D50B5FD00DA5041 /* CompetitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompetitionsViewController.h; sourceTree = "<group>"; };
+		BE2A506B1D50B5FD00DA5041 /* CompetitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompetitionsViewController.m; sourceTree = "<group>"; };
+		BE2A506C1D50B5FD00DA5041 /* HomeCompetitionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCompetitionCell.h; sourceTree = "<group>"; };
+		BE2A506D1D50B5FD00DA5041 /* HomeCompetitionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCompetitionCell.m; sourceTree = "<group>"; };
+		BE2A50701D50B5FD00DA5041 /* JZSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZSpinner.h; sourceTree = "<group>"; };
+		BE2A50711D50B5FD00DA5041 /* JZSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZSpinner.m; sourceTree = "<group>"; };
+		BE2A50761D50B62A00DA5041 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		BE2A50771D50B62A00DA5041 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		BE2A50791D50BA4100DA5041 /* joizSDKDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = joizSDKDemo.pch; path = ../joizSDKDemo.pch; sourceTree = "<group>"; };
+		BE6BCB681D522867007763F6 /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		BEA83D821B53CEEF00D5FC3B /* joizSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joizSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA83D861B53CEEF00D5FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA83D871B53CEEF00D5FC3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEA83D891B53CEEF00D5FC3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEA83D8A1B53CEEF00D5FC3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEA83D8C1B53CEEF00D5FC3B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BEA83D8D1B53CEEF00D5FC3B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BEA83D931B53CEEF00D5FC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA83D951B53CEEF00D5FC3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEA83D981B53CEEF00D5FC3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEA83D9E1B53CEEF00D5FC3B /* joizSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = joizSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA83DA31B53CEEF00D5FC3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA83DA41B53CEEF00D5FC3B /* joizSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = joizSDKDemoTests.m; sourceTree = "<group>"; };
+		BEA83DB11B53E97C00D5FC3B /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		BEA83DB21B53E97C00D5FC3B /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		BECE5E791D51D52C0030A7FA /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		BECE5E7A1D51D52C0030A7FA /* Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defs.h; sourceTree = "<group>"; };
+		BEE3CA6A1D672AD90004E0A1 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		BEF83A811D6B1931003B299C /* joizSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = joizSDK.framework; path = joizSDKDemo/JoizSDK/joizSDK.framework; sourceTree = "<group>"; };
+		BEF83A831D6B1948003B299C /* joizSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = joizSDKResources.bundle; path = joizSDKDemo/JoizSDK/joizSDKResources.bundle; sourceTree = "<group>"; };
+		BEF83A871D6B43D8003B299C /* UIButton+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		BEF83A881D6B43D8003B299C /* UIButton+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
+		BEFB75951D4FAB8A005310C4 /* no_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = no_image.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA83D7F1B53CEEF00D5FC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF83A821D6B1931003B299C /* joizSDK.framework in Frameworks */,
+				8AF0E0C8F96E65FE4D74D8E8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA83D9B1B53CEEF00D5FC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DEE6019D1744D1368BF735E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEF83A811D6B1931003B299C /* joizSDK.framework */,
+				BEF83A831D6B1948003B299C /* joizSDKResources.bundle */,
+				733A64007D4D3711BF2BF54F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2A50691D50B5FD00DA5041 /* Competitions */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A506A1D50B5FD00DA5041 /* CompetitionsViewController.h */,
+				BE2A506B1D50B5FD00DA5041 /* CompetitionsViewController.m */,
+				BE2A506C1D50B5FD00DA5041 /* HomeCompetitionCell.h */,
+				BE2A506D1D50B5FD00DA5041 /* HomeCompetitionCell.m */,
+			);
+			path = Competitions;
+			sourceTree = "<group>";
+		};
+		BE2A506E1D50B5FD00DA5041 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				BEF83A851D6B43D8003B299C /* Categories */,
+				BE2A506F1D50B5FD00DA5041 /* JZSpinner */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		BE2A506F1D50B5FD00DA5041 /* JZSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A50701D50B5FD00DA5041 /* JZSpinner.h */,
+				BE2A50711D50B5FD00DA5041 /* JZSpinner.m */,
+			);
+			path = JZSpinner;
+			sourceTree = "<group>";
+		};
+		BE2A50751D50B62A00DA5041 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A50761D50B62A00DA5041 /* ProfileViewController.h */,
+				BE2A50771D50B62A00DA5041 /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BEA83D791B53CEEF00D5FC3B = {
+			isa = PBXGroup;
+			children = (
+				BEA83D841B53CEEF00D5FC3B /* joizSDKDemo */,
+				BEA83DA11B53CEEF00D5FC3B /* joizSDKDemoTests */,
+				BEA83D831B53CEEF00D5FC3B /* Products */,
+				C66444EEB43F22B8C9797E96 /* Pods */,
+				7DEE6019D1744D1368BF735E /* Frameworks */,
+				BEFB75941D4FAB8A005310C4 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA83D831B53CEEF00D5FC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA83D821B53CEEF00D5FC3B /* joizSDKDemo.app */,
+				BEA83D9E1B53CEEF00D5FC3B /* joizSDKDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA83D841B53CEEF00D5FC3B /* joizSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BEA83DB01B53E97C00D5FC3B /* Authentication */,
+				BE2A50691D50B5FD00DA5041 /* Competitions */,
+				BE2A506E1D50B5FD00DA5041 /* External */,
+				BE2A50751D50B62A00DA5041 /* Profile */,
+				BECE5E781D51D52C0030A7FA /* ConstsDefs */,
+				BEA83D891B53CEEF00D5FC3B /* AppDelegate.h */,
+				BEA83D8A1B53CEEF00D5FC3B /* AppDelegate.m */,
+				BEA83D8C1B53CEEF00D5FC3B /* RootViewController.h */,
+				BEA83D8D1B53CEEF00D5FC3B /* RootViewController.m */,
+				BEA83D921B53CEEF00D5FC3B /* Main.storyboard */,
+				BEA83D951B53CEEF00D5FC3B /* Images.xcassets */,
+				BEA83D971B53CEEF00D5FC3B /* LaunchScreen.xib */,
+				BEA83D851B53CEEF00D5FC3B /* Supporting Files */,
+			);
+			path = joizSDKDemo;
+			sourceTree = "<group>";
+		};
+		BEA83D851B53CEEF00D5FC3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEA83D861B53CEEF00D5FC3B /* Info.plist */,
+				BEA83D871B53CEEF00D5FC3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA83DA11B53CEEF00D5FC3B /* joizSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA83DA41B53CEEF00D5FC3B /* joizSDKDemoTests.m */,
+				BEA83DA21B53CEEF00D5FC3B /* Supporting Files */,
+			);
+			path = joizSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		BEA83DA21B53CEEF00D5FC3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2A50791D50BA4100DA5041 /* joizSDKDemo.pch */,
+				BEA83DA31B53CEEF00D5FC3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEA83DB01B53E97C00D5FC3B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				BEA83DB11B53E97C00D5FC3B /* AuthViewController.h */,
+				BEA83DB21B53E97C00D5FC3B /* AuthViewController.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		BECE5E781D51D52C0030A7FA /* ConstsDefs */ = {
+			isa = PBXGroup;
+			children = (
+				BECE5E791D51D52C0030A7FA /* Consts.h */,
+				BECE5E7A1D51D52C0030A7FA /* Defs.h */,
+				BE6BCB681D522867007763F6 /* Notifications.h */,
+			);
+			name = ConstsDefs;
+			path = Profile/ConstsDefs;
+			sourceTree = "<group>";
+		};
+		BEF83A851D6B43D8003B299C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				BEF83A861D6B43D8003B299C /* UIButton */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		BEF83A861D6B43D8003B299C /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				BEF83A871D6B43D8003B299C /* UIButton+Layout.h */,
+				BEF83A881D6B43D8003B299C /* UIButton+Layout.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		BEFB75941D4FAB8A005310C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEE3CA6A1D672AD90004E0A1 /* user.png */,
+				BEFB75951D4FAB8A005310C4 /* no_image.jpg */,
+			);
+			name = Resources;
+			path = joizSDKDemo/Resources;
+			sourceTree = "<group>";
+		};
+		C66444EEB43F22B8C9797E96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D8261FE73BD4E42AB3CB7EF /* Pods.debug.xcconfig */,
+				A14B8F891715E93AC3EA7ED4 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA83D811B53CEEF00D5FC3B /* joizSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA83DA81B53CEEF00D5FC3B /* Build configuration list for PBXNativeTarget "joizSDKDemo" */;
+			buildPhases = (
+				C58A82CB132B782BF0D6A0AD /* Check Pods Manifest.lock */,
+				BEA83D7E1B53CEEF00D5FC3B /* Sources */,
+				BEA83D7F1B53CEEF00D5FC3B /* Frameworks */,
+				BEA83D801B53CEEF00D5FC3B /* Resources */,
+				A3E9F894FDD5E6FCCE0A1FBE /* Copy Pods Resources */,
+				523BCD9F153744B19C5CB166 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = joizSDKDemo;
+			productName = joizSDKDemo;
+			productReference = BEA83D821B53CEEF00D5FC3B /* joizSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA83D9D1B53CEEF00D5FC3B /* joizSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA83DAB1B53CEEF00D5FC3B /* Build configuration list for PBXNativeTarget "joizSDKDemoTests" */;
+			buildPhases = (
+				BEA83D9A1B53CEEF00D5FC3B /* Sources */,
+				BEA83D9B1B53CEEF00D5FC3B /* Frameworks */,
+				BEA83D9C1B53CEEF00D5FC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA83DA01B53CEEF00D5FC3B /* PBXTargetDependency */,
+			);
+			name = joizSDKDemoTests;
+			productName = joizSDKDemoTests;
+			productReference = BEA83D9E1B53CEEF00D5FC3B /* joizSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA83D7A1B53CEEF00D5FC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Reea;
+				TargetAttributes = {
+					BEA83D811B53CEEF00D5FC3B = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = JF3P2VRYST;
+					};
+					BEA83D9D1B53CEEF00D5FC3B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BEA83D811B53CEEF00D5FC3B;
+					};
+				};
+			};
+			buildConfigurationList = BEA83D7D1B53CEEF00D5FC3B /* Build configuration list for PBXProject "joizSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA83D791B53CEEF00D5FC3B;
+			productRefGroup = BEA83D831B53CEEF00D5FC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA83D811B53CEEF00D5FC3B /* joizSDKDemo */,
+				BEA83D9D1B53CEEF00D5FC3B /* joizSDKDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA83D801B53CEEF00D5FC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA83D941B53CEEF00D5FC3B /* Main.storyboard in Resources */,
+				BEE3CA6B1D672AD90004E0A1 /* user.png in Resources */,
+				BEF83A841D6B1948003B299C /* joizSDKResources.bundle in Resources */,
+				BEA83D991B53CEEF00D5FC3B /* LaunchScreen.xib in Resources */,
+				BEA83D961B53CEEF00D5FC3B /* Images.xcassets in Resources */,
+				BEFB75961D4FAB8A005310C4 /* no_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA83D9C1B53CEEF00D5FC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		523BCD9F153744B19C5CB166 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E9F894FDD5E6FCCE0A1FBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C58A82CB132B782BF0D6A0AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA83D7E1B53CEEF00D5FC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2A50731D50B5FD00DA5041 /* HomeCompetitionCell.m in Sources */,
+				BEF83A891D6B43D8003B299C /* UIButton+Layout.m in Sources */,
+				BE2A50741D50B5FD00DA5041 /* JZSpinner.m in Sources */,
+				BE2A50781D50B62A00DA5041 /* ProfileViewController.m in Sources */,
+				BE2A50721D50B5FD00DA5041 /* CompetitionsViewController.m in Sources */,
+				BEA83DB31B53E97C00D5FC3B /* AuthViewController.m in Sources */,
+				BEA83D8B1B53CEEF00D5FC3B /* AppDelegate.m in Sources */,
+				BEA83D8E1B53CEEF00D5FC3B /* RootViewController.m in Sources */,
+				BEA83D881B53CEEF00D5FC3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA83D9A1B53CEEF00D5FC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA83DA51B53CEEF00D5FC3B /* joizSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA83DA01B53CEEF00D5FC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA83D811B53CEEF00D5FC3B /* joizSDKDemo */;
+			targetProxy = BEA83D9F1B53CEEF00D5FC3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA83D921B53CEEF00D5FC3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA83D931B53CEEF00D5FC3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA83D971B53CEEF00D5FC3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA83D981B53CEEF00D5FC3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA83DA61B53CEEF00D5FC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEA83DA71B53CEEF00D5FC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA83DA91B53CEEF00D5FC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D8261FE73BD4E42AB3CB7EF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/joizSDKDemo/JoizSDK",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = joizSDKDemo.pch;
+				INFOPLIST_FILE = joizSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BEA83DAA1B53CEEF00D5FC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14B8F891715E93AC3EA7ED4 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/joizSDKDemo/JoizSDK",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = joizSDKDemo.pch;
+				INFOPLIST_FILE = joizSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BEA83DAC1B53CEEF00D5FC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = joizSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/joizSDKDemo.app/joizSDKDemo";
+			};
+			name = Debug;
+		};
+		BEA83DAD1B53CEEF00D5FC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = joizSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/joizSDKDemo.app/joizSDKDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA83D7D1B53CEEF00D5FC3B /* Build configuration list for PBXProject "joizSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA83DA61B53CEEF00D5FC3B /* Debug */,
+				BEA83DA71B53CEEF00D5FC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA83DA81B53CEEF00D5FC3B /* Build configuration list for PBXNativeTarget "joizSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA83DA91B53CEEF00D5FC3B /* Debug */,
+				BEA83DAA1B53CEEF00D5FC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA83DAB1B53CEEF00D5FC3B /* Build configuration list for PBXNativeTarget "joizSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA83DAC1B53CEEF00D5FC3B /* Debug */,
+				BEA83DAD1B53CEEF00D5FC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA83D7A1B53CEEF00D5FC3B /* Project object */;
+}

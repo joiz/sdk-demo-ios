@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "37B846CF00A29C47119D6E61A96DC34491CBB7AB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CD17E1805F53DD62DECF4839FAED159D77DB8F47" : 0,
+    "37B846CF00A29C47119D6E61A96DC34491CBB7AB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5D1A1AF0-E106-4788-AE11-F5200189E33A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CD17E1805F53DD62DECF4839FAED159D77DB8F47" : "joizSDK\/",
+    "37B846CF00A29C47119D6E61A96DC34491CBB7AB" : "sdk-demo-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "joizSDKDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "joizSDKDemo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joiz\/sdk-demo-ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "37B846CF00A29C47119D6E61A96DC34491CBB7AB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joiz\/joiz-ios-sdk",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CD17E1805F53DD62DECF4839FAED159D77DB8F47"
+    }
+  ]
+}
